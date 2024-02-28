@@ -1,0 +1,21 @@
+﻿@model GetGuideByIdQueryResult
+@{
+    ViewData["Title"] = "GetGuides";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>MediatR İle Rehber Düzenleme</h1>
+
+
+<form method="post">
+    <input type="hidden" asp-for="GuidId" />
+    <label>Şehir</label>
+    <br />
+    <input type="text" asp-for="Name" class="form-control" />
+    <br />
+    <label>Gün Gece</label>
+    <br />
+    <input type="text" asp-for="Description" class="form-control" />
+    <br />
+    <button class="btn btn-outline-success">Guide Bilgilerini Güncelle</button>
+</form>

@@ -1,0 +1,33 @@
+﻿@using TravelsalDTOLayer.DTO_s.AnnouncementDTOs
+@model List<AnnouncementListDTO>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Duyuru Listesi</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>$</th>
+        <th>Başlık</th>
+        <th>İçerik</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+        <th>Detaylar</th>
+ 
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AnnouncementId</td>
+            <td>@item.Title</td>
+            <td>@item.Conetent</td>
+            <td><a href="/Admin/Announcement/UptadeAnnouncement/@item.AnnouncementId" class="btn btn-outline-success">Güncelle</a></td>
+            <td><a href="/Admin/Announcement/DeleteAnnouncement/@item.AnnouncementId" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="" class="btn btn-outline-dark">Detaylar</a></td>
+
+        </tr>
+    }
+</table>
+<a href="/Admin/Announcement/AddAnnouncement/" class="btn btn-primary">Yeni Duyuru Oluştur</a>

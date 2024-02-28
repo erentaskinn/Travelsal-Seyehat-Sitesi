@@ -1,0 +1,18 @@
+﻿@model CreateRoleVm
+@{
+    ViewData["Title"] = "CreateRole";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Yeni Role Ekleme Syafası</h1>
+
+<form method="post">
+    <label>Role Adı</label>
+    <br />
+    <input type="text" class="form-control" asp-for="Name" />
+    <br />
+    <br />
+    <button class="btn btn-primary">Rolü Ekle</button>
+</form>
+
+

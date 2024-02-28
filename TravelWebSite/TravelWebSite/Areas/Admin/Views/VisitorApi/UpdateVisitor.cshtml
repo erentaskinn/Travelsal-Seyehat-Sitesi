@@ -1,0 +1,32 @@
+﻿@model VisitorVm
+@{
+    ViewData["Title"] = "UpdateVisitor";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Zİyaretçi Güncelleme Sayfası</h1>
+
+<br />
+
+<form method="post">
+
+    <input type="hidden" asp-for="VisitorId" />
+    
+    <labe>Ziyaretçi Adı</labe>
+    <input type="text" class="form-control" asp-for="Name" />
+    <br />
+    <labe>Ziyaretçi Soyadı</labe>
+    <input type="text" class="form-control" asp-for="Surname" />
+    <br />
+    <labe>Ziyaretçi Şehiri</labe>
+    <input type="text" class="form-control" asp-for="City" />
+    <br />
+    <labe>Ziyaretçi Ülkesi</labe>
+    <input type="text" class="form-control" asp-for="Country" />
+    <br />
+    <labe>Ziyaretçi Email</labe>
+    <input type="text" class="form-control" asp-for="Mail" />
+    <br />
+    <button class="btn btn-outline-success">Ziyaretçi Güncelle</button>
+</form>
+

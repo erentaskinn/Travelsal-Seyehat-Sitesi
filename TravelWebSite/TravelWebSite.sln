@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelWebSite", "TravelWebSite\TravelWebSite.csproj", "{60EAEB2D-8670-4DF7-BD11-E65CCBF2C14A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travels-EntityLayer", "Travels-EntityLayer\Travels-EntityLayer.csproj", "{373DD345-A807-4506-9E83-4D72334556F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel-DataAccessLayer", "Travel-DataAccessLayer\Travel-DataAccessLayer.csproj", "{EE380070-4032-4A8C-8DB8-E26663B7DE69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel-BussinessLayer", "Travel-BussinessLayer\Travel-BussinessLayer.csproj", "{50877D1F-46F6-4E40-A700-C3BF0F21E4E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelsalDTOLayer", "TravelsalDTOLayer\TravelsalDTOLayer.csproj", "{7A28CB11-4D6F-4CC6-A669-31864361F54C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingIRApi", "SingIRApi\SingIRApi.csproj", "{43040854-D639-4157-BB72-A4BCEDEFA0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingIRConsume", "SingIRConsume\SingIRConsume.csproj", "{C08C456A-ECD5-4E2A-B1BE-548990F98398}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60EAEB2D-8670-4DF7-BD11-E65CCBF2C14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EAEB2D-8670-4DF7-BD11-E65CCBF2C14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EAEB2D-8670-4DF7-BD11-E65CCBF2C14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EAEB2D-8670-4DF7-BD11-E65CCBF2C14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373DD345-A807-4506-9E83-4D72334556F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373DD345-A807-4506-9E83-4D72334556F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373DD345-A807-4506-9E83-4D72334556F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373DD345-A807-4506-9E83-4D72334556F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE380070-4032-4A8C-8DB8-E26663B7DE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE380070-4032-4A8C-8DB8-E26663B7DE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE380070-4032-4A8C-8DB8-E26663B7DE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE380070-4032-4A8C-8DB8-E26663B7DE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50877D1F-46F6-4E40-A700-C3BF0F21E4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50877D1F-46F6-4E40-A700-C3BF0F21E4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50877D1F-46F6-4E40-A700-C3BF0F21E4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50877D1F-46F6-4E40-A700-C3BF0F21E4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A28CB11-4D6F-4CC6-A669-31864361F54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A28CB11-4D6F-4CC6-A669-31864361F54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A28CB11-4D6F-4CC6-A669-31864361F54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A28CB11-4D6F-4CC6-A669-31864361F54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43040854-D639-4157-BB72-A4BCEDEFA0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43040854-D639-4157-BB72-A4BCEDEFA0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43040854-D639-4157-BB72-A4BCEDEFA0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43040854-D639-4157-BB72-A4BCEDEFA0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08C456A-ECD5-4E2A-B1BE-548990F98398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08C456A-ECD5-4E2A-B1BE-548990F98398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08C456A-ECD5-4E2A-B1BE-548990F98398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08C456A-ECD5-4E2A-B1BE-548990F98398}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {917D4700-12D4-4280-B2A5-D00D72150A8D}
+	EndGlobalSection
+EndGlobal
